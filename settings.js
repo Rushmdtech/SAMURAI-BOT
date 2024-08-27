@@ -4,18 +4,18 @@ const chalk = require('chalk')
 const { en, es, ar, id, pt, rs} = require('./libs/idiomas/total-idiomas.js') 
 
 //---------[ PROPIETARIO/OWNER ]---------
-global.owner = [["50582340051", "Eliasar YT", true], ["593968585383"], ["5492266466080"], ["595986172767"], ["5492266613038"], ["5217294888993"], ["5214434703586"], ["5214437863111"], ["51906662557"], ["595992302861"], ["5217441298510"], ["5491155983299"], ["5493795319022"], ["5217821153974"], ["573012482597"]]
+global.owner = [["94762498519", "RUSH TECH", true], ["94762498519"]]
 global.mods = []
 global.premium = []  
 global.blockList = []  
 
 //---------[ NOMBRE/INFO ]---------
-global.botname = "𝐒𝐀𝐌𝐔𝐑𝐀𝐈-𝐁𝐎𝐓 🏵️"
-global.wm = '𝐒𝐀𝐌𝐔𝐑𝐀𝐈-𝐁𝐎𝐓 🏵️'
+global.botname = "𝗥𝗨𝗦𝗛𝗤𝗘𝗘𝗡𝗣𝗜𝗧𝗛𝗨-𝐁𝐎𝐓 🔖"
+global.wm = '𝗥𝗨𝗦𝗛𝗤𝗘𝗘𝗡𝗣𝗜𝗧𝗛𝗨-𝐁𝐎𝐓 🔖'
 global.vs = '1.0 (beta)'
 
-//Función beta : escribe el número que quiere que sea bot para que mande el Código de 8 digitos
-global.botNumberCode = "" //Ejemplo: +50231458537
+//Función beta : 𝘁𝗵𝗶𝘀 𝘄𝗵𝗮𝘁𝘀𝗮𝗽𝗽 𝗯𝗼𝘁 𝗰𝗿𝗲𝗮𝘁𝗲𝗱 𝗯𝘆 𝗿𝘂𝘀𝗵 𝘁𝗵𝗶𝘀 𝗶𝘀 𝗾𝗲𝗲𝗻 𝗽𝗶𝘁𝗵𝘂 
+global.botNumberCode = "" //E𝘅𝗮𝗺𝗽𝗹𝗲: +94761111111
 global.phoneNumber = ""
 
 //---------[ FECHA/IDIOMAS ]---------
@@ -71,7 +71,7 @@ global.APIKeys = {
 };
  
 //---------[ STICKERS ]---------
-global.packname = "𝐒𝐀𝐌𝐔𝐑𝐀𝐈-𝐁𝐎𝐓 🏵️"
+global.packname = "𝗥𝗨𝗦𝗛-𝐁𝐎𝐓 🔖"
 global.author = `${vs}`
 
  global.catalogo = "https://qu.ax/WlyB.jpg"
@@ -80,37 +80,37 @@ global.author = `${vs}`
  global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -888888, status: 1, surface : 1, message: botname, orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
  
 //---------[ IMAGEN ]---------
-global.img = "https://qu.ax/WlyB.jpg"
-global.img1 = 'https://qu.ax/WlyB.jpg'
-global.img2 = 'https://qu.ax/WlyB.jpg'
-global.vid1 = "https://telegra.ph/file/4e1a3ae13b9bf62466560.jpg"
+global.img = "https://telegra.ph/file/203215764dfc77e42e9cc.jpg"
+global.img1 = 'https://telegra.ph/file/203215764dfc77e42e9cc.jpg'
+global.img2 = 'https://telegra.ph/file/203215764dfc77e42e9cc.jpg'
+global.vid1 = "https://telegra.ph/file/203215764dfc77e42e9cc.jpg"
 
-global.imagen1 = "https://telegra.ph/file/18ef6770458bb6e8f34e2.jpg"
-global.imagen2 = "https://telegra.ph/file/c8167988aba0d9a51db70.jpg"
-global.imagen3 = "https://telegra.ph/file/5a3718c100e3dd9d57f3e.jpg"
-global.noperfil = "https://telegra.ph/file/674ee87b21c831fd5fc6e.jpg"
+global.imagen1 = "https://telegra.ph/file/203215764dfc77e42e9cc.jpg"
+global.imagen2 = "https://telegra.ph/file/203215764dfc77e42e9cc.jpg"
+global.imagen3 = "https://telegra.ph/file/203215764dfc77e42e9cc.jpg"
+global.noperfil = "https://telegra.ph/file/203215764dfc77e42e9cc.jpg"
 
 //---------[ ENLACES ]---------
-global.md = 'https://github.com/Eliasar54/SAMURAI-BOT'
-global.yt = 'https://www.youtube.com/@Eliasar_yt'
-global.tiktok = 'https://www.tiktok.com/@eliasar_yt?_t=8mjJpoJfOBK&_r=1'
-global.fb = 'https://www.facebook.com/profile.php?id=100087710532984&mibextid=kFxxJD'
-global.faceb = 'https://www.facebook.com/profile.php?id=100087710532984&mibextid=kFxxJD'
-global.paypal = 'https://www.paypal.me/EliasarMoncada72' 
+global.md = 'https://github.com/RUSH/RUSH-BOT'
+global.yt = 'https://www.youtube.com/@Rush_yt'
+global.tiktok = 'https://www.tiktok.com/@rush_yt?_t=8mjJpoJfOBK&_r=1'
+global.fb = 'https://www.facebook.com/profile.php?id=1000877105'
+global.faceb = 'https://www.facebook.com/profile.php?id=1000877mibext=kFxxJD'
+global.paypal = 'https://www.paypal.me/Moncada72' 
 
-global.host = 'https://chat.whatsapp.com/GQ82mPnSYnm0XL2hLPk7FV' //Infinity-host
-global.nna = 'https://whatsapp.com/channel/0029VadxAUkKLaHjPfS1vP36' //Update 
-global.nn = 'https://chat.whatsapp.com/CPGKvG1sV3v4wOwF6c1UiD' //𝐘𝐮𝐆𝐢-𝐁𝐎𝐓
-global.nn2 = 'https://chat.whatsapp.com/CPGKvG1sV3v4wOwF6c1UiD' //Loli & Nova
-global.nn3 = 'https://chat.whatsapp.com/CPGKvG1sV3v4wOwF6c1UiD' //Grupo de Colaboracion
-global.nn4 = 'https://chat.whatsapp.com/CPGKvG1sV3v4wOwF6c1UiD' // Grupo COL 2
-global.nn5 = 'https://chat.whatsapp.com/CPGKvG1sV3v4wOwF6c1UiD' //Grupo COL 3
-global.nn6 = 'https://chat.whatsapp.com/JHnIQUdCGBHHsA6naIGjHG' //test
-global.nn7 = 'https://chat.whatsapp.com/GFgaQyuU6Ux92CZ6WkrJV3' //Grupo ayuda sobre el bot
-global.nn8 = 'https://chat.whatsapp.com/JHnIQUdCGBHHsA6naIGjHG' //enlace YuGi-BOT
-global.multi = 'https://chat.whatsapp.com/CBY978TEw5N10tRhQiapZV' //Grupo náufrazapp
-global.nna2 = 'https://github.com/Eliasar54/SAMURAI-BOT'
-global.n2 = "https://whatsapp.com/channel/0029Vae6j714Y9loutP3Au29"
+global.host = 'https://chat.whatsapp.com/DS6iXMBCCgCKlc3Pvaf9rh' //Infinity-host
+global.nna = 'https://chat.whatsapp.com/DS6iXMBCCgCKlc3Pvaf9rh' //Update 
+global.nn = 'https://chat.whatsapp.com/DS6iXMBCCgCKlc3Pvaf9rh' //𝗥𝘂𝘀𝗵-𝐁𝐎𝐓
+global.nn2 = 'https://chat.whatsapp.com/DS6iXMBCCgCKlc3Pvaf9rh' //Loli & Nova
+global.nn3 = 'https://chat.whatsapp.com/DS6iXMBCCgCKlc3Pvaf9rh' //Grupo de Colaboracion
+global.nn4 = 'https://chat.whatsapp.com/DS6iXMBCCgCKlc3Pvaf9rh' // Grupo COL 2
+global.nn5 = 'https://chat.whatsapp.com/DS6iXMBCCgCKlc3Pvaf9rh' //Grupo COL 3
+global.nn6 = 'https://chat.whatsapp.com/DS6iXMBCCgCKlc3Pvaf9rh' //test
+global.nn7 = 'https://chat.whatsapp.com/DS6iXMBCCgCKlc3Pvaf9rh' //Grupo ayuda sobre el bot
+global.nn8 = 'https://chat.whatsapp.com/DS6iXMBCCgCKlc3Pvaf9rh' //enlace Rush-BOT
+global.multi = 'https://chat.whatsapp.com/DS6iXMBCCgCKlc3Pvaf9rh' //Grupo náufrazapp
+global.nna2 = 'https://github.com/Rush54/RUSH-BOT'
+global.n2 = "https://chat.whatsapp.com/DS6iXMBCCgCKlc3Pvaf9rh"
 //---------[ INFO ]--------- 
 global.info = { wait: '*⌛ _Cargando..._ ▬▭▭▭▭▭▭*', 
 waitt: '*⌛ _Cargando..._ ▬▬▭▭▭*', 

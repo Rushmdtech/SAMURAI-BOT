@@ -74,10 +74,10 @@ global.APIKeys = {
 global.packname = "𝗥𝗨𝗦𝗛-𝐁𝐎𝐓 🔖"
 global.author = `${vs}`
 
- global.catalogo = "https://qu.ax/WlyB.jpg"
+ global.catalogo = "https://telegra.ph/file/203215764dfc77e42e9cc.jpg"
  
  //-----[Estilo]------------
- global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -888888, status: 1, surface : 1, message: botname, orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
+ global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "911111111111-1625305111@g.us" } : {}) }, message: { orderMessage: { itemCount : -888888, status: 1, surface : 1, message: botname, orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
  
 //---------[ IMAGEN ]---------
 global.img = "https://telegra.ph/file/203215764dfc77e42e9cc.jpg"

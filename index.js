@@ -211,7 +211,7 @@ printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
 logger: pino({ level: 'silent' }),
 auth: { creds: state.creds, keys: makeCacheableSignalKeyStore(state.keys, pino({level: 'silent'})) },
 mobile: MethodMobile, 
-browser: opcion == '1' ? ['𝐒𝐀𝐌𝐔𝐑𝐀𝐈-𝐁𝐎𝐓', 'Safari', '1.0.0'] : methodCodeQR ? ['𝐒𝐀𝐌𝐔𝐑𝐀𝐈-𝐁𝐎𝐓', 'Safari', '1.0.0'] : ["Ubuntu", "Chrome", "20.0.04"],
+browser: opcion == '1' ? ['𝗥𝗨𝗦𝗛-𝐁𝐎𝐓', 'Safari', '1.0.0'] : methodCodeQR ? ['𝐒𝐀𝐌𝐔𝐑𝐀𝐈-𝐁𝐎𝐓', 'Safari', '1.0.0'] : ["Ubuntu", "Chrome", "20.0.04"],
 markOnlineOnConnect: true, 
 generateHighQualityLinkPreview: true, 
 syncFullHistory: true,
@@ -313,8 +313,8 @@ for (let fucker of fuckedcall) {
 if (fucker.isGroup == false) {
 if (fucker.status == "offer") {
 let call = await sock.sendTextWithMentions(fucker.from, `*[ ! ] @${fucker.from.split('@')[0]} ${lenguaje['smscall']()} ${fucker.isVideo ? `videollamadas` : `llamadas` }_\n\n${lenguaje['smscall2']()}\n\n• ${fb}`)
-let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:; Eliasar YT👑;;;\nFN: Eliasar YT\nORG: Eliasar YT👑\nTITLE:\nitem1.TEL;waid=50582340051:+50582340051\nitem1.X-ABLabel:Propietario 👑\nX-WA-BIZ-DESCRIPTION:ᴇsᴄʀɪʙɪ sᴏʟᴏ ᴘᴏʀ ᴄᴏsᴀs ᴅᴇʟ ʙᴏᴛ.\nX-WA-BIZ-NAME:Owner 👑\nEND:VCARD`
-sock.sendMessage(fucker.from, { contacts: { displayName: '🏵️ 𝐒𝐀𝐌𝐔𝐑𝐀𝐈-𝐁𝐎𝐓 𝐎𝐅𝐂 🏵️', contacts: [{ vcard }] }}, {quoted: call, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
+let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:; Rush tech👑;;;\nFN: Rush tech\nORG: Rush tech👑\nTITLE:\nitem1.TEL;waid=911111111:+911111111\nitem1.X-ABLabel:Propietario 👑\nX-WA-BIZ-DESCRIPTION:qeen pithu rush ʙᴏᴛ.\nX-WA-BIZ-NAME:Owner 👑\nEND:VCARD`
+sock.sendMessage(fucker.from, { contacts: { displayName: '🔖 𝗥𝗨𝗦𝗛-𝗕𝗢𝗧 𝐎𝐅𝐂 🔖', contacts: [{ vcard }] }}, {quoted: call, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
 await sleep(8000)
 await sock.updateBlockStatus(fucker.from, "block")
 }}}})
@@ -337,9 +337,9 @@ ppgroup = 'https://ibb.co/vLZ0mv0/avatar-group-large-v2.png?q=60'
 sock.sendMessage(res.id, {text: lenguaje['smsAvisos2'](),  
 contextInfo:{  
 forwardedNewsletterMessageInfo: { 
-newsletterJid: '120363297379773397@newsletter', 
+newsletterJid: '12036111111111111@newsletter', 
 serverMessageId: '', 
-newsletterName: '🏵️ 𝐒𝐀𝐌𝐔𝐑𝐀𝐈-𝐁𝐎𝐓 𝐎𝐅𝐂 🏵️' }, 
+newsletterName: '🔖 𝗥𝗨𝗦𝗛-𝐁𝐎𝐓 𝐎𝐅𝐂 🔖' }, 
 forwardingScore: 9999999,  
 isForwarded: true,   
 mentionedJid:[m.sender],  
@@ -365,9 +365,9 @@ sock.sendMessage(res.id, {
 text: lenguaje['smsAvisos4'](),  
 contextInfo:{  
 forwardedNewsletterMessageInfo: { 
-newsletterJid: '120363297379773397@newsletter', 
+newsletterJid: '120363291111111111@newsletter', 
 serverMessageId: '', 
-newsletterName: '🏵️ 𝐒𝐀𝐌𝐔𝐑𝐀𝐈-𝐁𝐎𝐓 𝐎𝐅𝐂 🏵️' }, 
+newsletterName: '🔖 𝗥𝗨𝗦𝗛-𝐁𝐎𝐓 𝐎𝐅𝐂 🔖' }, 
 forwardingScore: 9999999,  
 isForwarded: true,    
 mentionedJid:[m.sender],  
@@ -392,9 +392,9 @@ ppgroup = 'https://ibb.co/vLZ0mv0/avatar-group-large-v2.png?q=60'
 sock.sendMessage(res.id, {text: lenguaje['smsAvisos6'](),
 contextInfo:{ 
 forwardedNewsletterMessageInfo: { 
-newsletterJid: '120363297379773397@newsletter', 
+newsletterJid: '120363291111111111@newsletter', 
 serverMessageId: '', 
-newsletterName: '🏵️ 𝐒𝐀𝐌𝐔𝐑𝐀𝐈-𝐁𝐎𝐓 𝐎𝐅𝐂 🏵️' }, 
+newsletterName: '🔖 𝗥𝗨𝗦𝗛-𝐁𝐎𝐓 𝐎𝐅𝐂 🔖' }, 
 forwardingScore: 9999999,  
 isForwarded: true,   
 mentionedJid:[m.sender],  
@@ -420,9 +420,9 @@ ppgroup = 'https://ibb.co/vLZ0mv0/avatar-group-large-v2.png?q=60'
 sock.sendMessage(res.id, {text: lenguaje['smsAvisos7'](),  
 contextInfo:{  
 forwardedNewsletterMessageInfo: { 
-newsletterJid: '120363297379773397@newsletter', 
+newsletterJid: '120363291111111111@newsletter', 
 serverMessageId: '', 
-newsletterName: '🏵️ 𝐒𝐀𝐌𝐔𝐑𝐀𝐈-𝐁𝐎𝐓 𝐎𝐅𝐂 🏵️' }, 
+newsletterName: '🔖 𝗥𝗨𝗦𝗛-𝐁𝐎𝐓 𝐎𝐅𝐂 🔖' }, 
 forwardingScore: 9999999,  
 isForwarded: true,   
 mentionedJid:[m.sender],  
@@ -448,9 +448,9 @@ let text = `${lenguaje['smsAvisos8']()}\n${res.desc}`
 sock.sendMessage(res.id, {text: text,  
 contextInfo:{  
 forwardedNewsletterMessageInfo: { 
-newsletterJid: '120363297379773397@newsletter', 
+newsletterJid: '120363291111111111@newsletter', 
 serverMessageId: '', 
-newsletterName: '🏵️ 𝐒𝐀𝐌𝐔𝐑𝐀𝐈-𝐁𝐎𝐓 𝐎𝐅𝐂 🏵️' }, 
+newsletterName: '🔖 𝗥𝗨𝗦𝗛-𝐁𝐎𝐓 𝐎𝐅𝐂 🔖' }, 
 forwardingScore: 9999999,  
 isForwarded: true,   
 mentionedJid:[m.sender],  
@@ -476,9 +476,9 @@ let text = `${lenguaje['smsAvisos9']()}\n${res.subject}`
 sock.sendMessage(res.id, {text: text,  
 contextInfo:{  
 forwardedNewsletterMessageInfo: { 
-newsletterJid: '120363297379773397@newsletter', 
+newsletterJid: '1203632971111111111@newsletter', 
 serverMessageId: '', 
-newsletterName: '🏵️ 𝐒𝐀𝐌𝐔𝐑𝐀𝐈-𝐁𝐎𝐓 𝐎𝐅𝐂 🏵️' }, 
+newsletterName: '🔖 𝗥𝗨𝗦𝗛-𝐁𝐎𝐓 𝐎𝐅𝐂 🔖' }, 
 forwardingScore: 9999999,  
 isForwarded: true,   
 mentionedJid:[m.sender],  
@@ -533,9 +533,9 @@ sock.sendMessage(anu.id, { text: welcome, mentions: [num]}, {quoted: null, ephem
 if (media === 'audio')
 sock.sendMessage(anu.id, { audio: { url: vn }, 
 contextInfo: { forwardedNewsletterMessageInfo: { 
-newsletterJid: '120363296103096943@newsletter', 
+newsletterJid: '1203632961111111@newsletter', 
 serverMessageId: '', 
-newsletterName: '🏵️ 𝐒𝐀𝐌𝐔𝐑𝐀𝐈-𝐁𝐎𝐓 𝐎𝐅𝐂 🏵️' }, forwardingScore: 9999999, isForwarded: true, mentionedJid:[num], "externalAdReply": { 
+newsletterName: '🔖 𝗥𝗨𝗦𝗛-𝐁𝐎𝐓 𝐎𝐅𝐂 🔖' }, forwardingScore: 9999999, isForwarded: true, mentionedJid:[num], "externalAdReply": { 
 "title": `乂 ＷＥＬＣＯＭＥ 乂`, 
 "body": `${name.split("@")[0]}`, 
 "previewType": "PHOTO", 
@@ -547,9 +547,9 @@ seconds: '4556', ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, {qu
 if (media === 'texto2')
 sock.sendMessage(anu.id, { text: `${lenguaje['smsWel7']()} ${lenguaje['smsWel']()} @${name.split("@")[0]} ${lenguaje['smsWel2']()}\n${lenguaje['smsWel8']()} ${metadata.subject}\n${lenguaje['smsWel9']()} ${miembros}\n${lenguaje['smsWel10']()} ${date}\n\n${lenguaje['smsWel11']()} \n\n${metadata.desc}`, contextInfo:{
 forwardedNewsletterMessageInfo: { 
-newsletterJid: '120363296103096943@newsletter', 
+newsletterJid: '120363296101111111@newsletter', 
 serverMessageId: '', 
-newsletterName: '🏵️ 𝐒𝐀𝐌𝐔𝐑𝐀𝐈-𝐁𝐎𝐓 𝐎𝐅𝐂 🏵️' }, 
+newsletterName: '🔖 𝗥𝗨𝗦𝗛𝗤𝗘𝗘𝗡𝗣𝗜𝗧𝗛𝗨-𝐁𝐎𝐓 𝐎𝐅𝐂 🔖' }, 
 forwardingScore: 9999999,
 isForwarded: true, 
 mentionedJid:[num],
@@ -577,9 +577,9 @@ if (media === 'texto2')
 sock.sendMessage(anu.id, { text: `\`\`\`[!] Un guerrero a dejado la batalla @${name.split("@")[0]}.\`\`\``,
 contextInfo:{
 forwardedNewsletterMessageInfo: { 
-newsletterJid: '120363296103096943@newsletter', 
+newsletterJid: '1203632911111111111@newsletter', 
 serverMessageId: '', 
-newsletterName: '🏵️ 𝐒𝐀𝐌𝐔𝐑𝐀𝐈-𝐁𝐎𝐓 𝐎𝐅𝐂 🏵️' }, 
+newsletterName: '🔖 𝗥𝗨𝗦𝗛𝗤𝗘𝗘𝗡𝗣𝗜𝗧𝗛𝗨-𝐁𝐎𝐓 𝐎𝐅𝐂 🔖' }, 
 forwardingScore: 9999999,
 isForwarded: true,  
 mentionedJid:[num],
@@ -603,9 +603,9 @@ let usuario = anu.author
 sock.sendMessage(anu.id, { text: `${pickRandom(['[ NUEVO ADMINS ]\n\n', 'Hey'])} @${name.split("@")[0]} ${pickRandom(['Ahora eres admin del grupo 🥳', 'Felicidades ahora eres parte staff 🎉'])}\n\n🫵 Acción echa por : @${usuario.split("@")[0]}`, mentions: [...groupAdmins.map(v => v.id)], 
  contextInfo:{
  forwardedNewsletterMessageInfo: { 
-newsletterJid: '120363296103096943@newsletter', 
+newsletterJid: '12036329111111111@newsletter', 
 serverMessageId: '', 
-newsletterName: '🏵️ 𝐒𝐀𝐌𝐔𝐑𝐀𝐈-𝐁𝐎𝐓 𝐎𝐅𝐂 🏵️' }, 
+newsletterName: '🔖 𝗥𝗨𝗦𝗛-𝐁𝐎𝐓 𝐎𝐅𝐂 🔖' }, 
 forwardingScore: 9999999,
 isForwarded: true, 
  mentionedJid: [num, usuario],
@@ -624,9 +624,9 @@ let usuario = anu.author
 sock.sendMessage(anu.id, { text: `@${name.split("@")[0]} ${pickRandom(['Joderte ya no eres admin 🥲', 'jjjjj ya no eres admin culiado 🤣'])}\n\n🫵 Acción echa por : @${usuario.split("@")[0]}`,
  contextInfo:{
  forwardedNewsletterMessageInfo: { 
-newsletterJid: '120363296103096943@newsletter', 
+newsletterJid: '12036329611111111@newsletter', 
 serverMessageId: '', 
-newsletterName: '🏵️ 𝐒𝐀𝐌𝐔𝐑𝐀𝐈-𝐁𝐎𝐓 𝐎𝐅𝐂 🏵️' }, 
+newsletterName: '🔖 𝗥𝗨𝗦𝗛-𝐁𝐎𝐓 𝐎𝐅𝐂 🔖' }, 
 forwardingScore: 9999999,
 isForwarded: true, 
  mentionedJid:[num, usuario],
@@ -662,7 +662,7 @@ say('samurai\nbot', {
     colors: ['blue', 'red']
 });
 
-say(`By: Eliasar YT`, {
+say(`By: RUSH TECH`, {
     font: 'console',
     gradient: ['blue', 'blue']
 });

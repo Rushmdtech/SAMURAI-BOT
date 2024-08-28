@@ -127,7 +127,7 @@ const time = moment(Number(msg.messageTimestamp + "000")).locale("es-mx").tz("Am
   
 /*const reply = (text) => {  
 m.reply(text)}*/
-function sendMessage(conn, chat, text, m) {conn.sendMessage(chat, { text: text, contextInfo: { forwardedNewsletterMessageInfo: {newsletterJid: '120363297379773397@newsletter', serverMessageId: '', newsletterName: '🏵️ 𝐒𝐀𝐌𝐔𝐑𝐀𝐈-𝐁𝐎𝐓 𝐎𝐅𝐂 🏵️' }, forwardingScore: 9999999, isForwarded: true }}, {quoted: m, ephemeralExpiration: 24*60*60*1000, disappearingMessagesInChat: 24*60*60*1000 // Ajustado a milisegundos
+function sendMessage(conn, chat, text, m) {conn.sendMessage(chat, { text: text, contextInfo: { forwardedNewsletterMessageInfo: {newsletterJid: '120363297311111111@newsletter', serverMessageId: '', newsletterName: '🔖 𝗥𝗨𝗦𝗛-𝗕𝗢𝗧 𝐎𝐅𝐂 🔖' }, forwardingScore: 9999999, isForwarded: true }}, {quoted: m, ephemeralExpiration: 24*60*60*1000, disappearingMessagesInChat: 24*60*60*1000 // Ajustado a milisegundos
 })} 
 m.reply = (text) => {  
 sendMessage(conn, m.chat, text, m)}
@@ -184,7 +184,7 @@ chalk.bold.cyanBright(`▣───────────────╯`)
 if (global.db.data.settings[numBot].autobio) {
 let setting = global.db.data.settings[numBot]
 if (!setting.bioUpdated) {
-let text = "🏵️ 𝐒𝐀𝐌𝐔𝐑𝐀𝐈-𝐁𝐎𝐓 𝐎𝐅𝐂 🏵️"
+let text = "🔖 𝗥𝗨𝗦𝗛-𝐁𝐎𝐓 𝐎𝐅𝐂 🔖"
 try {
 await conn.updateProfileStatus(text)
 await conn.updateProfilePicture(numBot, { url: "https://telegra.ph/file/17f94deeba870f4cb56b9.jpg" })
@@ -523,7 +523,6 @@ delete this.game[room13.id]
 if (isWin)
 users[winner].exp += winScore - playScore
 }}
-	    
 //math
 if (kuismath.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
 kuis = true
@@ -980,7 +979,7 @@ let media = or[Math.floor(Math.random() * 2)]
 if (media === 'texto')
 m.reply('*Mi jefe no me quiere 😢*')        
 if (media === 'sticker')         
-conn.sendFile(m.chat, e, 'sticker.webp', '',m, true, { contextInfo: { forwardedNewsletterMessageInfo: { newsletterJid: '120363160031023229@newsletter', serverMessageId: '', newsletterName: 'INFINITY-WA 💫' }, forwardingScore: 9999999, isForwarded: true, 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: 'ᶜ ᴬᵘᵗᵒᵈᵉˢᶜʳᵘʸᵉ', mediaType: 2, sourceUrl: nna, thumbnail: imagen1}}}, { quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}
+conn.sendFile(m.chat, e, 'sticker.webp', '',m, true, { contextInfo: { forwardedNewsletterMessageInfo: { newsletterJid: '120363160031111111@newsletter', serverMessageId: '', newsletterName: 'INFINITY-WA 💫' }, forwardingScore: 9999999, isForwarded: true, 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: 'ᶜ ᴬᵘᵗᵒᵈᵉˢᶜʳᵘʸᵉ', mediaType: 2, sourceUrl: nna, thumbnail: imagen1}}}, { quoted: m, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}
 if (budy.includes(`Samurai`) || budy.includes(`samurai`)) {
 m.react(`${pickRandom(['🌟', '👀', '🤑'])}`)}
 if (budy.includes(`Avisos`) || budy.includes(`Atencion`)) {
@@ -1226,7 +1225,7 @@ conn.copyNForward(m.chat, msgs[budy.toLowerCase()], true)
  
 //--------------------[ REPORTE/ERRORS ]-----------------------     
 let e = String(err) 
-conn.sendMessage("50582340051@s.whatsapp.net", { text: "Hola Creador/desarrollador, parece haber un error, por favor arreglarlo 🥲\n\n" + util.format(e), 
+conn.sendMessage("50582340111@s.whatsapp.net", { text: "Hola Creador/desarrollador, parece haber un error, por favor arreglarlo 🥲\n\n" + util.format(e), 
 contextInfo:{forwardingScore: 9999999, isForwarded: false }})
 process.on('uncaughtException', function (err) {
 console.log('Caught exception: ', err)})}}}}
